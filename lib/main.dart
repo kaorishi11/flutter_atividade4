@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: const TextStyle(
                 fontSize: 80,
                 fontWeight: FontWeight.bold,
-                color: Colors.deepPurple,
+                color: Color.fromARGB(255, 0, 0, 0),
               ),
             ),
 
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(
               onPressed: sortearNumero,
               child: const Text("Tentar a Sorte"),
-            ),
+              ),
           ],
         ),
       ),
